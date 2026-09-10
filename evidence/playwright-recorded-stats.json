@@ -1,0 +1,29 @@
+{
+  "description": "Extracted recorded statistics, not full reports or new runs",
+  "runs": [
+    {
+      "original_path": "test-results/results.json",
+      "sha256": "da67a68dd7e1964493af6f63d7e8d9b68f15b8d968825fc750c5dac996a0eb85",
+      "stats": {
+        "startTime": "2026-09-10T08:04:35.803Z",
+        "duration": 327524.35000000003,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "original_path": "mutation-results/results.json",
+      "sha256": "6626ac4b5fdabdbde4ee24b81226698f5377984b61c22581fcfdc0159f14cccc",
+      "stats": {
+        "startTime": "2026-09-10T08:10:08.801Z",
+        "duration": 62986.164,
+        "expected": 0,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    }
+  ]
+}
